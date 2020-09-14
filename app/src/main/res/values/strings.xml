@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Example Snackbar</string>
+    <string name="title_activity_simple_Snackbar">SimpleSnackbarActivity</string>
+
+    <string name="snackbar_simple">Simple Snackbar</string>
+    <string name="snackbar_long">Long Snackbar</string>
+    <string name="snackbar_generic_method">Generic Method Snackbar</string>
+    <string name="snackbar_add_action">Add action Snackbar</string>
+    <string name="snackbar_indefinite">Indefinite Snackbar</string>
+    <string name="snackbar_custom_layout_by_code">Custom Snackbar</string>
+    <string name="snackbar_callback">Callback Snackbar</string>
+    <string name="snackbar_custom_view">Custom view Snackbar</string>
+
+</resources>

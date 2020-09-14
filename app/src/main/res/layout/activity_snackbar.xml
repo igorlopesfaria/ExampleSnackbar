@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/simpleSnackbarBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/snackbar_simple" />
+
+    <Button
+        android:id="@+id/longSnackbarBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/snackbar_long" />
+
+    <Button
+        android:id="@+id/indefiniteSnackbarBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/snackbar_indefinite" />
+
+    <Button
+        android:id="@+id/genericMethodSnackbarBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/snackbar_generic_method" />
+
+    <Button
+        android:id="@+id/addActionSnackbarBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/snackbar_add_action" />
+
+    <Button
+        android:id="@+id/customSnackbarBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/snackbar_custom_layout_by_code" />
+
+    <Button
+        android:id="@+id/callbackSnackbarBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/snackbar_callback" />
+
+    <Button
+        android:id="@+id/customViewSnackbarBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/snackbar_custom_view" />
+
+</LinearLayout>
