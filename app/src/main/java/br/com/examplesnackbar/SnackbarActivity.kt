@@ -34,13 +34,14 @@ class SnackbarActivity : AppCompatActivity() {
         }
 
         genericMethodSnackbarBTN.setOnClickListener {
+            Thread.sleep(3000)
             genericMethodSnackbar(it, "Generic Method Snackbar")
         }
 
         addActionSnackbarBTN.setOnClickListener {
             Snackbar.make(it, "Snack with action show toast", Snackbar.LENGTH_LONG)
                 .setAction("Action") {
-                    Log.i("Snackbar", "Clicou na ação!")
+                    Log.i("Snackbar", "Clicked on Action")
                 }
                 .show()
         }
@@ -53,7 +54,7 @@ class SnackbarActivity : AppCompatActivity() {
         customSnackbarBTN.setOnClickListener {
             Snackbar.make(it, "Custom snackbar", Snackbar.LENGTH_LONG)
                 .setAction("Action") {
-                    Log.i("Snackbar", "Clicou na ação!")
+                    Log.i("Snackbar", "Clicked in Action")
                 }
                 .setTextColor(ContextCompat.getColor(applicationContext, R.color.black))
                 .setBackgroundTint(ContextCompat.getColor(applicationContext, R.color.purple_200))
@@ -79,6 +80,7 @@ class SnackbarActivity : AppCompatActivity() {
         }
 
         customViewSnackbarBTN.setOnClickListener {
+            Thread.sleep(3000)
             CustomSnackbar.makeActionMessage(
                 parent = findViewById(android.R.id.content),
                 iconImage = android.R.drawable.ic_menu_close_clear_cancel,
