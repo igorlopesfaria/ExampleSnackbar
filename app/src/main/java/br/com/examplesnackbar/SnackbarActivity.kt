@@ -34,7 +34,6 @@ class SnackbarActivity : AppCompatActivity() {
         }
 
         genericMethodSnackbarBTN.setOnClickListener {
-            Thread.sleep(3000)
             genericMethodSnackbar(it, "Generic Method Snackbar")
         }
 
@@ -80,7 +79,6 @@ class SnackbarActivity : AppCompatActivity() {
         }
 
         customViewSnackbarBTN.setOnClickListener {
-            Thread.sleep(3000)
             CustomSnackbar.makeActionMessage(
                 parent = findViewById(android.R.id.content),
                 iconImage = android.R.drawable.ic_menu_close_clear_cancel,
